@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import styled from "styled-components"
 import { FaBars } from "react-icons/fa"
 import { menuData } from "../data/MenuData"
+import { Button } from "./Button"
 
 const Header = () => {
   return (
@@ -18,6 +19,11 @@ const Header = () => {
           )
         })}
       </NavMenu>
+      <NavBtn>
+        <Button primary="true" round="true" to="/trips">
+          Book a flight
+        </Button>
+      </NavBtn>
     </Nav>
   )
 }
@@ -58,11 +64,20 @@ const Bars = styled(FaBars)`
     cursor: pointer;
   }
 `
-
-export const NavMenu = styled.div`
+const NavMenu = styled.div`
   display: flex;
   align-items: center;
   margin-right: -48px;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+`
+
+const NavBtn = styled.div`
+  display: flex;
+  align-items: center;
+  margin-right: 24px;
 
   @media screen and (max-width: 768px) {
     display: none;
