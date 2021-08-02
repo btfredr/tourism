@@ -1,0 +1,26 @@
+[
+    {
+        "img": "../assets/images/mountain.jpg",
+        "alt": "Lofoten, Norway",
+        "name": "Lofoten, Norway",
+        "button": "View Destination"
+    },
+    {
+        "img": "../assets/images/desert.jpg",
+        "alt": "Wadi Musa, Jordan",
+        "name": "Wadi Musa, Jordan",
+        "button": "View Destination"
+    },
+    {
+        "img": "../assets/images/sea.jpg",
+        "alt": "Canary Islands",
+        "name": "Canary Islands",
+        "button": "View Destination"
+    },
+    {
+        "img": "../assets/images/waterfall.jpg",
+        "alt": "Petang, Indonesia",
+        "name": "Petang, Indonesia",
+        "button": "View Destination"
+    }
+]
